@@ -8,13 +8,13 @@ Acest proiect conține două implementări în limbajul C pentru rezolvarea prob
 Fiecare algoritm preia formule SAT în format DIMACS .cnf și determină dacă problema este satisfiabilă.
 
 Structura proiectului 
-├── rezolutie.c # Implementare algoritm rezoluție
-├── davis_putnam.c # Implementare algoritm Davis-Putnam (DP)
-├── dpll_solver.c # Implementare algoritm DPLL
-├── test50.cnf # Test cu 50 clauze
-├── test200.cnf # Test cu 200 clauze
-├── test400.cnf # Test cu 400 clauze
-└── README.md # Acest fișier
+1. rezolutie.c # Implementare algoritm rezoluție
+2. davis_putnam.c # Implementare algoritm Davis-Putnam (DP)
+3. dpll_solver.c # Implementare algoritm DPLL
+4. test50.cnf # Test cu 50 clauze
+5. test200.cnf # Test cu 200 clauze
+6. test400.cnf # Test cu 400 clauze
+ README.md # Acest fișier
 
 Compilare
 •	Algoritmul de Rezoluție:
